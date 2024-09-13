@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Daily Task Manager",
+  "version": "1.0",
+  "description": "Manage daily tasks, navigate between days, and add tasks for previous and next days.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

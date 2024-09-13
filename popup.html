@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <button id="prevDay" class="nav-button">&#8249;</button>
+      <span id="dateLabel">Today's Tasks</span>
+      <button id="nextDay" class="nav-button">&#8250;</button>
+    </header>
+    <ul id="taskList"></ul>
+    <div class="input-group">
+      <input type="text" id="newTask" placeholder="Add a new task">
+      <button id="addTaskBtn">Add</button>
+    </div>
+  </div>
+</body>
+<script src="popup.js"></script>
+
+</html>
